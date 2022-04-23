@@ -1,0 +1,82 @@
+body{
+	background-image: linear-gradient(to right, pink, yellow, tomato);
+}
+
+.drop-down{
+	/*width: 100px;*/
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	/*border:2px solid black;*/
+}
+
+.drop-down .btn{
+	border-radius: 10px;
+	width: 100px;
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	font-family: impact;
+	font-size: 25px;
+}
+
+.menu{
+	position: absolute;
+	margin-left: 30px;
+	width: 200px;
+	display: none;
+}
+
+.drop-down:hover .btn{
+	background-color: silver;
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.gallery{
+	margin: 5px;
+	/*border: silver solid 2px;*/
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.gallery img:hover{
+	border: 3px solid red;
+}
+
+.gallery .caption{
+	text-align: center;
+	font-family: arial;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.drop-down:hover .menu{
+	display: block;
+}
+
+.menu a{
+	color: black;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	background-color: silver;
+	/*margin: 2px;*/
+}
+
+.menu a:hover{
+	color: red;
+	background-color: black;
+	text-decoration: overline;
+}
+
+
+
